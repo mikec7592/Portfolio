@@ -27,7 +27,7 @@ export default function Home() {
             <ul className=" flex items-center">
               <li></li>
               <li> <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-2xl" /> </li>
-              <li><a className=" bg-gradient-to-r from-cyan-400 to-teal-400 text-white px-4 py-2 rounded ml-4" href="https://www.linkedin.com/in/mikec7592/">Linkedin</a></li>
+              <li><a className=" bg-gradient-to-r from-cyan-400 to-teal-400 text-white px-4 py-2 rounded ml-4" href="https://www.linkedin.com/in/mikec7592/" target="_blank">Linkedin</a></li>
               <li> <a className=" bg-gradient-to-r from-cyan-400 to-teal-400 text-white px-4 py-2 rounded ml-4"  href="#">Resume</a></li>
             </ul>
           </nav>
@@ -37,7 +37,7 @@ export default function Home() {
             <p className=" text-md py-2 leading-8 text-gray-700 md:text-xl max-w-xl mx-auto" >Aspiring engineer with a dream to one day help guide and mentor other budding engineers!  </p>
           </div>
           <div className=" text-5xl flex justify-center py-3 text-emerald-600"> 
-            <a className=" mx-10"> <AiFillLinkedin/> </a>
+            <a href="https://www.linkedin.com/in/mikec7592/" target="_blank" className=" mx-10" > <AiFillLinkedin/> </a>
             <a className=" mx-10"> <AiFillGithub/> </a>
           </div>
           <div className=" relative rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden md:h-96 md:w-96" >
