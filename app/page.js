@@ -29,7 +29,7 @@ export default function Home() {
               <li> <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-2xl" /> </li>
               <li><a className=" bg-gradient-to-r from-cyan-400 to-teal-400 text-white px-4 py-2 rounded ml-4" href="https://www.linkedin.com/in/mikec7592/" target="_blank">Linkedin</a></li>
               <li><a className=" bg-gradient-to-r from-cyan-400 to-teal-400 text-white px-4 py-2 rounded ml-4" href="https://github.com/mikec7592" target="_blank">Github</a></li>
-              <li> <a className=" bg-gradient-to-r from-cyan-400 to-teal-400 text-white px-4 py-2 rounded ml-4"  href="#">Resume</a></li>
+              <li> <a className=" bg-gradient-to-r from-cyan-400 to-teal-400 text-white px-4 py-2 rounded ml-4"  href="https://docs.google.com/document/d/1Hg68jaXr8BRMPA78mxIa4OKodkfbKfp_BrumnKjrFb0/edit?usp=sharing" target="_blank">Resume</a></li>
             </ul>
           </nav>
           <div className=" p-10 text-center" >
