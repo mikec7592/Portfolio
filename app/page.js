@@ -96,7 +96,7 @@ export default function Home() {
               <p className="py-1 text-gray-700 dark:text-gray-400">Django Auth</p>
             </div>
           </a>
-          <a href="https://github.com/mikec7592/anime_list" target="_blank">
+          <a href="https://github.com/mikec7592/portfolio" target="_blank">
             <div className=" hover:animate-pulse text-center shadow-lg p-5 rounded-xl my-10 bg-slate-100 dark:bg-slate-800" >
               <Image className=" mx-auto py-4" src={p2_0} width={200} height={200} />
               <h3 className=" pb-4 font-bold">Made_By_Mike</h3>
