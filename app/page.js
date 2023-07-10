@@ -115,8 +115,8 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 text-center">Images & More</h3>
-            <p className=" text-md py-2 leading-8 text-gray-700 dark:text-black" >Below are some screenshots of a few apps I've done.  The images depict how the app looks when accessed via desktop but they have been optomized for use on a mobile phone or smaller device as well.</p>
-            <p className=" text-md py-2 leading-8 text-center text-gray-700 dark:text-black" >Check out some of my projects below</p>
+            <p className=" text-md py-2 leading-8 text-gray-700 md:text-l max-w-3xl mx-auto dark:text-black" >Below are some screenshots of a few apps I've done.  The images depict how the app looks when accessed via desktop but they have been optomized for use on a mobile phone or other smaller devices as well.  Try resizing this page to see what it looks like.</p>
+            <p className=" text-md py-2 leading-8 text-center text-gray-700 dark:text-black" >Check out some of my projects below and visit my <a className=" text-cyan-400 underline" href="https://github.com/mikec7592" target="_blank">Github</a> for more.</p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap bg-slate-100 dark:bg-slate-700 ">
             <div className="basis-1/3 flex-1">
