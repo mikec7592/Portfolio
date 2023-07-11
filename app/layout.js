@@ -1,3 +1,4 @@
+import "tw-elements/dist/css/tw-elements.min.css";
 import './globals.css'
 import { Inter } from 'next/font/google'
 

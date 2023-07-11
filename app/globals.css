@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.carousel-container {
+  width: 80%;
+}
+
+/* .carousel-item {
+  aspect-ratio: 16/9; 
+} */
