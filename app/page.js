@@ -43,6 +43,7 @@ export default function Home() {
           <div className=" p-3 text-center" >
             <h2 className=" py-2 text-5xl text-teal-600 font-medium md:text-6xl dark:text-emerald-500" >Michael Clark</h2>
             <h3 className=" text-2xl py-2 md:text-3xl" >Full-Stack Engineer</h3>
+            <h5 className=" text-l py-1 md:text-xl" >Bellevue, Washington</h5>
             <p className=" text-md py-2 leading-8 text-gray-700 md:text-xl max-w-xl mx-auto dark:text-black" >Aspiring engineer with a dream to one day help guide and mentor other budding engineers!  </p>
           </div>
           <div className=" text-5xl flex justify-center pt-3 text-emerald-500"> 
@@ -56,8 +57,8 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 text-center" >Skills & Training</h3>
-            <p className=" text-md py-2 leading-8 text-gray-700 md:text-l max-w-3xl mx-auto dark:text-black"  >Completed <span className=" text-teal-600 dark:text-emerald-500" >General Assemblys</span> software engineering bootcamp where I recieved extensive training in Full-Stack development with a certificate for my accomplishments.  I also recieved extensive Front-end industry training from my time at <span className=" text-teal-600 dark:text-emerald-500" >Brainnest Consulting</span> and recieved a certifcate of my accomplishments upon my departure from them.  I am most comfortable using <span className=" text-teal-600 dark:text-emerald-500" >Javascript & Node</span> but I do have experience with <span className=" text-teal-600 dark:text-emerald-500" >Python</span> as well as some exposure to <span className=" text-teal-600 dark:text-emerald-500" >Java</span>.  All of my work is <span className=" text-teal-600 dark:text-emerald-500" >responsive and mobile friendly</span> including this page.  </p>
-            <p className=" text-md py-2 leading-8 text-center text-gray-700 dark:text-black" >Check out some of my projects and their git repos by <span className=" text-teal-600 dark:text-emerald-500" >clicking</span> below.</p>
+            <p className=" text-md py-2 leading-8 text-gray-700 md:text-l max-w-3xl mx-auto dark:text-black"  >Completed <span className=" text-teal-600 dark:text-emerald-500" >General Assembly's</span> software engineering bootcamp where I recieved extensive training in Full-Stack development with a certificate for my accomplishments.  I also recieved extensive Front-end industry training from my time at <span className=" text-teal-600 dark:text-emerald-500" >Brainnest Consulting</span> and recieved a certifcate of my accomplishments upon my departure from them.  I am most comfortable using <span className=" text-teal-600 dark:text-emerald-500" >Javascript & Node</span> but I do have experience with <span className=" text-teal-600 dark:text-emerald-500" >Python</span> as well as some exposure to <span className=" text-teal-600 dark:text-emerald-500" >Java</span>.  All of my work is <span className=" text-teal-600 dark:text-emerald-500" >responsive and mobile friendly</span> including this page.  </p>
+            <p className=" text-md py-2 leading-8 text-center text-gray-700 dark:text-black" >Check out some of my projects and their git repos by <span className=" text-teal-600 dark:text-emerald-500" >clicking</span> a card below.</p>
           </div>
           <div className=" lg:flex gap-10" > 
           <a href="https://github.com/mikec7592/yelpHikes" target="_blank" >
@@ -116,6 +117,12 @@ export default function Home() {
               <p className="py-1 text-gray-700 dark:text-gray-400">Deployed via Vercel</p>
             </div>
           </a>
+          </div>
+        </section>
+        <section>
+          <div className=" pb-6"> 
+            <h3 className="text-4xl py-1 text-center">Contact me</h3>
+            <p className=" text-md py-2 leading-8 text-gray-700 md:text-l max-w-4xl mx-auto dark:text-black">You can contact me by sending me a message on <a className=" text-cyan-400 underline" href="https://www.linkedin.com/in/mikec7592/" target="_blank">Linkedin</a> or feel free to email me at <span className=" underline">mikec7592@gmail.com</span>. Alternatively you can click <a className=" text-cyan-400 underline" href="mailto:mikec7592@gmail.com">here</a> to send me an email right away.  I look forward to hearing from you and can't wait to connect!</p>
           </div>
         </section>
         <section>
